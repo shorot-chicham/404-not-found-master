@@ -57,3 +57,24 @@ header h3{
     border: none;
     border-radius: 3px;
 }
+
+/* Responsive the site  */
+
+/* Small device  */
+
+@media screen and (max-width: 678px) {
+    .container{
+        flex-direction: column;
+        padding: 24px;
+    }
+    .space{
+        margin: 0;
+    }
+    .container-img img{
+        width: 100%;
+    }
+    header h3{
+        margin: 0;
+        padding-left: 24px;
+    }
+}
